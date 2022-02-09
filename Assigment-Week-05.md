@@ -54,6 +54,7 @@ Dog <|.. blackDog
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
 ![Slide20](./puml-codes/Slide20.png)
+
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
 
@@ -64,6 +65,7 @@ Dog <|.. blackDog
 "Base class" <|-- "Derived class"
 @enduml 
 ```
+
 ![Inheritance](./puml-codes/Inheritance-example.png)
 
 ### 1.3 Classification ของ class คน (สไลด์ที่ 21) ###
@@ -95,7 +97,9 @@ Person <|.. Somsak
 
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
+
 ![Slide21](./puml-codes/Slide21.png)
+
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
 #### หมายเหตุ การใช้ลูกศรสามเหลี่ยมที่มีหัวโปร่งใสและเส้นประคือการทำ Instantiation (สร้างวัตถุ) ####
@@ -107,8 +111,6 @@ Person <|.. Somsak
 @enduml 
 ```
 ![Instantiation](./puml-codes/Instantiation-example.png)
-
-
 
 
 ### 1.4 การสร้างวัตถุจาก Class คน  (สไลด์ที่ 22) ###
@@ -195,6 +197,7 @@ Car <|-- "2..4" Door
 @enduml 
 ```
 ซึ่งจะได้ไดอะแกรมดังรูป
+
 ![Cardinality-example](./puml-codes/Cardinality-example.png)
 
 
