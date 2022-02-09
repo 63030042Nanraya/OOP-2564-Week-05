@@ -1,14 +1,10 @@
-# OOP-2564-Week-05
+#  การนิยามวัตถุ   (ตอนที่ 2)
 
 ## เนื้อหา ##
 
-### Classification Abstraction ###
+### [Generalization Abstraction](./Generalization.md) ###
 
-### Aggregation Abstraction ###
-
-### Generalization Abstraction ###
-
-### Association Abstraction ###
+### [Association Abstraction](./Generalization.md) ###
 
 
 
