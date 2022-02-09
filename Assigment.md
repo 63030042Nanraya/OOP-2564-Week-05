@@ -100,5 +100,77 @@ Person <|.. Somsak
 ![Instantiation](./puml-codes/Instantiation-example.png)
 
 
-----
 
+
+### 1.4 การสร้างวัตถุจาก Class คน  (สไลด์ที่ 22) ###
+
+``` puml
+@startuml 
+class Person{}
+object Somsree
+object Somkuan
+object Somjit
+object Somsak
+
+Person <|.. Somsree
+Person <|.. Somkuan
+Person <|.. Somjit
+Person <|.. Somsak
+
+@enduml 
+```
+#### ตัวอย่างผลที่ได้จากการ render สไลด์ 22 ####
+
+![Slide22](./puml-codes/Slide22.png)
+
+--- 
+## 2. ให้แก้ไข code ไฟล์ puml เพื่อให้ได้ภาพตามสไลด์ต่อไปนี้  ##
+
+### 2.1 สไลด์หมายเลข 44 ###
+
+``` puml
+@startuml 
+class classroom{}
+class Whiteboard{}
+class Table{}
+class Chair{}
+class Student{}
+class Teacher{}
+' Todo: ทำให้สมบูรณ์
+
+
+@enduml 
+```
+
+### 2.2 สไลด์หมายเลข 45 ###
+
+``` puml
+@startuml 
+class MotorBoat{}
+class Car{}
+class Helm{}
+class Engine{}
+class Door{}
+class Wheel{}
+class SteeringWheel{}
+' Todo: ทำให้สมบูรณ์
+
+@enduml 
+```
+
+### 2.3 สไลด์หมายเลข 51 ###
+
+``` puml
+@startuml 
+
+class Car{}
+class Engine{}
+class Wheel{}
+class AirConditionner{}
+
+Car <|-- "1..1" Engine
+Car <|-- "2..4" Door
+' Todo: ทำให้สมบูรณ์
+
+@enduml 
+```
