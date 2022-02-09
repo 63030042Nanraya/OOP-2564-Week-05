@@ -8,4 +8,4 @@
 
 ## [แนะนำ PlantUML](./PlantUML-Intro.md) ##
 
-## [แบบฝึกหัด](./Assigment.md) ##
+## [แบบฝึกหัด](./Assigment-Week-05.md) ##
