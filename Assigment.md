@@ -1,4 +1,6 @@
 # Assignment
+ Assignment นี้เป็นการรวม Assignment ของเนื้อหาในสองสัปดาห์ที่เรียนเรื่อง Abstraction  
+
 
 ----
 ## 1. ให้นำโค้ดต่อไปนี้ไป render ให้เป็น class diagram ##
@@ -174,3 +176,61 @@ Car <|-- "2..4" Door
 
 @enduml 
 ```
+
+#### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
+
+``` puml
+@startuml 
+class Car{}
+class Engine{}
+Car <|-- "1..1" Engine
+Car <|-- "2..4" Door
+@enduml 
+```
+ซึ่งจะได้ไดอะแกรมดังรูป
+![Cardinality-example](./puml-codes/Cardinality-example.png)
+
+
+### 2.4 Aggregation ของคลาส หนังสือ  (สไลด์หมายเลข 54) ###
+
+``` puml
+@startuml 
+
+class Book{}
+class Cover{}
+Book <|-- "2..2" Cover
+' Todo: ทำให้สมบูรณ์
+
+@enduml 
+```
+
+### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
+
+``` puml
+@startuml 
+
+class Book{
+    - ISBN 
+    - Name
+    + Read()
+    + Print()
+}
+ 
+' Todo: ทำให้สมบูรณ์
+
+@enduml 
+```
+
+
+### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
+
+
+### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
+
+### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+
+
+### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+
+
+---
