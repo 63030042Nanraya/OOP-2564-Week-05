@@ -33,7 +33,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/Slide19.png)
+![Slide19](./PUML/1.1.jpg)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -53,7 +53,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
+![Slide20](./PUML/1.2.jpg)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -98,7 +98,7 @@ Person <|.. Somsak
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
 
-![Slide21](./puml-codes/Slide21.png)
+![Slide21](.//PUML/1.3.jpg)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -152,6 +152,7 @@ class Teacher{}
 
 @enduml 
 ```
+![Slide44](.//PUML/2.1.jpg)
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
@@ -168,6 +169,8 @@ class SteeringWheel{}
 
 @enduml 
 ```
+![Slide45](.//PUML/2.2.jpg)
+
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
@@ -185,6 +188,7 @@ Car <|-- "2..4" Door
 
 @enduml 
 ```
+![Slide51](.//PUML/2.3.jpg)
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
@@ -213,6 +217,7 @@ Book <|-- "2..2" Cover
 
 @enduml 
 ```
+![Slide54](.//PUML/2.4.jpg)
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
@@ -230,17 +235,18 @@ class Book{
 
 @enduml 
 ```
-
+![Slide56](.//PUML/2.5.jpg)
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
-
+![Slide71](.//PUML/2.6.jpg)
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
+![Slide76](.//PUML/2.7.jpg)
 
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
-
+![Slide78](.//PUML/2.8.jpg)
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
-
+![Slide95](.//PUML/2.9.jpg)
 
 ---
