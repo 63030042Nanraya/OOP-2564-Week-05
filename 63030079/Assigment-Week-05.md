@@ -33,7 +33,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/Slide19.png)
+![image](https://user-images.githubusercontent.com/92081920/154503282-8a16ae6a-87e7-4bd1-8c3a-58f8aac25a89.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -53,7 +53,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
+![image](https://user-images.githubusercontent.com/92081920/154504436-1314a467-8d49-45dd-beca-d83938d98fce.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -97,8 +97,7 @@ Person <|.. Somsak
 
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
-
-![Slide21](./puml-codes/Slide21.png)
+![image](https://user-images.githubusercontent.com/92081920/154504826-60314fc3-532b-4a9d-992b-82aa111e4666.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -147,11 +146,14 @@ class Table{}
 class Chair{}
 class Student{}
 class Teacher{}
-' Todo: ทำให้สมบูรณ์
-
-
+classroom o-- Whiteboard
+classroom o-- Table
+classroom o-- Chair
+classroom o-- Student
+classroom o-- Teacher
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081920/154510398-6b65a889-d3ac-4e37-8d9c-f630a3937174.png)
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
@@ -164,10 +166,15 @@ class Engine{}
 class Door{}
 class Wheel{}
 class SteeringWheel{}
-' Todo: ทำให้สมบูรณ์
-
+MotorBoat o-- SteeringWheel
+MotorBoat o-- Engine
+Car o-- Engine
+Car o-- Door
+Car o-- Wheel
+Car o-- Helm
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081920/154511412-cbcb4b19-bfa9-48ef-8a50-128eafac1ee8.png)
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
@@ -179,12 +186,15 @@ class Engine{}
 class Wheel{}
 class AirConditionner{}
 
-Car <|-- "1..1" Engine
-Car <|-- "2..4" Door
-' Todo: ทำให้สมบูรณ์
+Car o-- "1..1" Engine
+Car o-- "2..4" Door
+Car o-- "4..4" Wheel
+Car o-- "0..1" AirConditionner
 
 @enduml 
 ```
+
+![image](https://user-images.githubusercontent.com/92081920/154512755-ad6c8693-6a6b-4e15-add1-a0d2082e2718.png)
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
@@ -208,11 +218,21 @@ Car <|-- "2..4" Door
 
 class Book{}
 class Cover{}
-Book <|-- "2..2" Cover
-' Todo: ทำให้สมบูรณ์
+class Introduction{}
+class List{}
+class Content{}
+class Bibliography{}
+
+Book o-- "2..2" Cover
+Book o-- "1..1" Introduction
+Book o-- "1..1" List
+Book o-- "1..N" Content
+Book o-- "1..1" Bibliography
 
 @enduml 
 ```
+
+![image](https://user-images.githubusercontent.com/92081920/154514245-94138af6-9c74-4381-b707-38e681745f03.png)
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
@@ -225,12 +245,51 @@ class Book{
     + Read()
     + Print()
 }
- 
-' Todo: ทำให้สมบูรณ์
-
+class Cover{
+    + Typecover
+    + Open()
+}
+class Introduction{
+    - Textmessage
+    - Authorname
+    + Read()
+}
+class List{
+    - Textmessage
+    + Read()
+}
+class Content{
+    - Chapter
+    + Read()
+}
+class Bibliography{
+    - Textmessage
+    + Read()
+}
+class Paper{
+    - ContentofPaper
+    + Open()
+    + Read()
+}
+class Picture{
+    - Image
+    + See()
+}
+class Font{
+    - Character
+    + Spell()
+}
+Book o-- Cover
+Book o-- Introduction
+Book o-- List
+Book o-- Content
+Book o-- Bibliography
+Content o-- Paper
+Paper o-- Picture
+Paper o-- Font
 @enduml 
 ```
-
+![image](https://user-images.githubusercontent.com/92081920/154518533-0de80d9e-021f-4b73-af43-ec79789ab195.png)
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
 
