@@ -297,10 +297,15 @@ Paper o-- Font
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
 
+![image](https://user-images.githubusercontent.com/92081920/154526136-cd62aa95-3929-4f4e-b19d-a68c5eed6d50.png)
+
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+
+![image](https://user-images.githubusercontent.com/92081920/154527451-21540a16-4724-47db-8d93-5a251f05f17e.png)
 
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
 
+![image](https://user-images.githubusercontent.com/92081920/154529115-feba1564-4e34-45b8-8b73-f4230a1b592c.png)
 
 ---
