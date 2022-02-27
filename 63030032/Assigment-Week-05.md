@@ -33,7 +33,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/19.png)
+![Slide19](./puml-codes/19.PNG)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -53,7 +53,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/20.png)
+![Slide20](./puml-codes/20.PNG)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -98,7 +98,7 @@ Person <|.. Somsak
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
 
-![Slide21](./puml-codes/21.png)
+![Slide21](./puml-codes/21.PNG)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -132,7 +132,7 @@ Person <|.. Somsak
 ```
 #### ตัวอย่างผลที่ได้จากการ render สไลด์ 22 ####
 
-![Slide22](./puml-codes/22.png)
+![Slide22](./puml-codes/22.PNG)
 
 --- 
 ## 2. ให้แก้ไข code ไฟล์ puml เพื่อให้ได้ภาพตามสไลด์ต่อไปนี้  ##
