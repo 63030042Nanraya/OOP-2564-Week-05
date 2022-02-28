@@ -334,6 +334,22 @@ Bank_Account <|-- Current_Account
 ![image](https://user-images.githubusercontent.com/50146617/155978711-50fc5781-c09b-41b1-9fd2-b80004416804.png)
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
+``` puml
+@startuml
+class employee {
+    # salary
+    - work
+    + take_leave()
+}
+class manager {
+    - position_allowance
+    + work_order()
+}
+employee <|-- manager
+@enduml
+```
+![image](https://user-images.githubusercontent.com/50146617/155979602-379fe83a-9533-4e54-97a4-62cf37102fd3.png)
+
 
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
 
