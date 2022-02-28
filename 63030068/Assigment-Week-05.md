@@ -309,6 +309,29 @@ Paper o-- Font
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
 
+``` puml
+@startuml 
+class Bank_Account{
+    - Bank 
+    - Name
+    - interest
+    # debt
+    + deposit()
+    + withdraw()
+}
+class Savings_Account{
+    + Pay_utility_bills()
+}
+class Current_Account{
+    Fee
+    + daily_check()
+}
+Bank_Account <|-- Savings_Account
+Bank_Account <|-- Current_Account
+@enduml
+```
+
+![image](https://user-images.githubusercontent.com/50146617/155978711-50fc5781-c09b-41b1-9fd2-b80004416804.png)
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
 
