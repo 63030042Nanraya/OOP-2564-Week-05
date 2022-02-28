@@ -352,7 +352,24 @@ employee <|-- manager
 
 
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+``` puml
+@startuml
+class CD_Player_Music{
+    - Brand
+    - CD_slots
+    + Play_Music()
+}
+class Video_Player_Music{
+    - Brand
+    + Player_Video()
+}
+class CD_Player{ }
 
+CD_Player_Music <|-- CD_Player
+Video_Player_Music <|-- CD_Player
+@enduml
+```
+![image](https://user-images.githubusercontent.com/50146617/155980579-71904da1-fb9d-45dd-9189-98eae69dcac8.png)
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
 
