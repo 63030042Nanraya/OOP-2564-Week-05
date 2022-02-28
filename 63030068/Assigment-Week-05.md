@@ -372,6 +372,17 @@ Video_Player_Music <|-- CD_Player
 ![image](https://user-images.githubusercontent.com/50146617/155980579-71904da1-fb9d-45dd-9189-98eae69dcac8.png)
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+``` puml
+@startuml
+class Mother{ }
+class Have{ }
+class Son{ }
+
+Mother "1..1" -- Have
+Have -- "0..n" Son
+@enduml
+```
+![image](https://user-images.githubusercontent.com/50146617/155981505-2dfb05b3-0363-4d40-b731-f80ea3ecfdb1.png)
 
 
 ---
