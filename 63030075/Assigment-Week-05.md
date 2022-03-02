@@ -33,7 +33,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/Slide19.png)
+![image](https://user-images.githubusercontent.com/92082233/156373903-94578390-a73d-4d5d-8bc3-35306e24f916.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -53,7 +53,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
+![image](https://user-images.githubusercontent.com/92082233/156374154-2bba6385-0633-4897-bbf7-590c07b48381.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -97,8 +97,7 @@ Person <|.. Somsak
 
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
-
-![Slide21](./puml-codes/Slide21.png)
+![image](https://user-images.githubusercontent.com/92082233/156374404-fab7e1b8-865c-4371-bd94-b31ec7f00c42.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
