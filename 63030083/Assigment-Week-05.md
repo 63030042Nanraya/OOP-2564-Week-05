@@ -33,9 +33,11 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/Slide19.png)
 
-^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+![image](https://user-images.githubusercontent.com/92082798/156373412-6e80fca1-6655-4c51-946c-5b2d7123b7f3.png)
+
+
+^^^ บันทึกผลของนักศึกษา
 
 ### 1.2 Code ของตัวอย่าง ปรับปรุงการทำ Classification ของหมาและแมว (สไลด์ที่ 20) ###
 
@@ -53,9 +55,11 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
 
-^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+![image](https://user-images.githubusercontent.com/92082798/156373813-814e7ab3-3691-44fb-aeaf-a80bc79b0620.png)
+
+
+^^^ บันทึกผลของนักศึกษา
 
 
 #### หมายเหตุ การใช้ลูกศรสามเหลี่ยมที่มีหัวโปร่งใสคือการทำ Inheritance ####
@@ -98,9 +102,10 @@ Person <|.. Somsak
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
 
-![Slide21](./puml-codes/Slide21.png)
+![image](https://user-images.githubusercontent.com/92082798/156374068-57f99f61-79b5-4c83-90ec-4b66ee629ea1.png)
 
-^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+
+^^^ บันทึกผลของนักศึกษา
 
 #### หมายเหตุ การใช้ลูกศรสามเหลี่ยมที่มีหัวโปร่งใสและเส้นประคือการทำ Instantiation (สร้างวัตถุ) ####
 
@@ -132,7 +137,9 @@ Person <|.. Somsak
 ```
 #### ตัวอย่างผลที่ได้จากการ render สไลด์ 22 ####
 
-![Slide22](./puml-codes/Slide22.png)
+
+![image](https://user-images.githubusercontent.com/92082798/156374425-ff5bf4d8-2712-4aa5-a998-7b9e121e77ba.png)
+
 
 --- 
 ## 2. ให้แก้ไข code ไฟล์ puml เพื่อให้ได้ภาพตามสไลด์ต่อไปนี้  ##
