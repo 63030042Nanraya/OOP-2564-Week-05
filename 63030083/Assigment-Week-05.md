@@ -306,13 +306,26 @@ Paper o-- Font
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
 
+![image](https://user-images.githubusercontent.com/92082798/156837392-b2aa67dd-703d-4f10-a2f7-9848434efe89.png)
+![image](https://user-images.githubusercontent.com/92082798/156837406-23ce61ef-c4f7-4f54-a285-8f85e3449683.png)
+
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
 
+![image](https://user-images.githubusercontent.com/92082798/156838251-032b96e2-2850-4fd4-b6d2-9b4e2387b021.png)
+![image](https://user-images.githubusercontent.com/92082798/156838268-0b61532e-3ddd-4f8a-81fd-d1bac80ae98e.png)
+
+
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+
+![image](https://user-images.githubusercontent.com/92082798/156838849-107073d4-109c-4922-914b-fe1d1b58cbd9.png)
+![image](https://user-images.githubusercontent.com/92082798/156838859-205d1bf3-634a-4371-af7e-37323b513519.png)
 
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+
+![image](https://user-images.githubusercontent.com/92082798/156840496-bcc4f757-3cdd-43d0-b38a-8027cd919fdd.png)
+![image](https://user-images.githubusercontent.com/92082798/156840528-9cdc2582-5108-4292-86d6-7514dad74c45.png)
 
 
 ---
