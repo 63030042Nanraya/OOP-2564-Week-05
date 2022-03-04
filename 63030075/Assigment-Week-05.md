@@ -152,7 +152,7 @@ classroom o-- Chair
 classroom o-- Student
 classroom o-- Teacher
 @enduml 
-```![image](https://user-images.githubusercontent.com/92082233/156838379-88374b33-6c1c-4299-8350-2bb85e60b788.png)
+[image](https://user-images.githubusercontent.com/92082233/156838379-88374b33-6c1c-4299-8350-2bb85e60b788.png)
 
 
 ### 2.2 สไลด์หมายเลข 45 ###
@@ -174,7 +174,7 @@ Car o-- Door
 Car o-- Wheel
 Car o-- SteeringWheel
 @enduml 
-```![image](https://user-images.githubusercontent.com/92082233/156838494-8e2fac32-f065-40db-9b4d-a9855aa4d12f.png)
+[image](https://user-images.githubusercontent.com/92082233/156838494-8e2fac32-f065-40db-9b4d-a9855aa4d12f.png)
 
 
 ### 2.3 สไลด์หมายเลข 51 ###
@@ -190,7 +190,7 @@ Car o-- "2..4" Door
 Car o-- "4..4" Wheel
 Car o-- "0..1" AirConditionner
 @enduml  
-```![image](https://user-images.githubusercontent.com/92082233/156838696-7588a229-b116-4fd8-90be-6174acd352a6.png)
+[image](https://user-images.githubusercontent.com/92082233/156838696-7588a229-b116-4fd8-90be-6174acd352a6.png)
 
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
@@ -287,7 +287,7 @@ Chapter o-- Page
 Page o-- Picture
 Page o-- Font
 @enduml  
-```![image](https://user-images.githubusercontent.com/92082233/156839012-df4a42a0-db72-475b-aff5-2cb255c933c2.png)
+[image](https://user-images.githubusercontent.com/92082233/156839012-df4a42a0-db72-475b-aff5-2cb255c933c2.png)
 
 
 
