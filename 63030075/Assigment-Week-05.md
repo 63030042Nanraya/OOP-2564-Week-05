@@ -152,7 +152,8 @@ classroom o-- Chair
 classroom o-- Student
 classroom o-- Teacher
 @enduml 
-[image](https://user-images.githubusercontent.com/92082233/156838379-88374b33-6c1c-4299-8350-2bb85e60b788.png)
+
+![image](https://user-images.githubusercontent.com/92082233/156839973-771a5a95-0a76-4b47-a572-364a8b75d367.png)
 
 
 ### 2.2 สไลด์หมายเลข 45 ###
@@ -174,8 +175,8 @@ Car o-- Door
 Car o-- Wheel
 Car o-- SteeringWheel
 @enduml 
-[image](https://user-images.githubusercontent.com/92082233/156838494-8e2fac32-f065-40db-9b4d-a9855aa4d12f.png)
 
+![image](https://user-images.githubusercontent.com/92082233/156839807-b4f949ae-3046-4388-bfef-a0e0d8da71bf.png)
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
@@ -190,9 +191,8 @@ Car o-- "2..4" Door
 Car o-- "4..4" Wheel
 Car o-- "0..1" AirConditionner
 @enduml  
-[image](https://user-images.githubusercontent.com/92082233/156838696-7588a229-b116-4fd8-90be-6174acd352a6.png)
 
-
+![image](https://user-images.githubusercontent.com/92082233/156840181-c8c18870-f50b-4f11-ab10-f2155fcb70a2.png)
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
 ``` puml
@@ -224,7 +224,8 @@ Book o-- "1..1" Index
 Book o-- "1..N" Content
 Book o-- "1..1" Bibliography
 @enduml 
-```![image](https://user-images.githubusercontent.com/92082233/156838877-e08c9eb6-8c3c-42e5-9b7d-81050b4941e3.png)
+
+![image](https://user-images.githubusercontent.com/92082233/156838877-e08c9eb6-8c3c-42e5-9b7d-81050b4941e3.png)
 
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
@@ -287,19 +288,27 @@ Chapter o-- Page
 Page o-- Picture
 Page o-- Font
 @enduml  
-[image](https://user-images.githubusercontent.com/92082233/156839012-df4a42a0-db72-475b-aff5-2cb255c933c2.png)
 
+![image](https://user-images.githubusercontent.com/92082233/156839586-272ce28a-be21-4522-bd9b-9ff2aa884fdc.png)
 
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
+![image](https://user-images.githubusercontent.com/92082233/156842619-e0fdaf98-70e4-484c-8ed5-0fd6c6ea62b2.png)
+![image](https://user-images.githubusercontent.com/92082233/156842660-ff429300-b283-4518-81f2-0fdff30c66ec.png)
 
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
+![image](https://user-images.githubusercontent.com/92082233/156843852-993cd0a2-a436-4801-abfb-9e65515e0d47.png)
+![image](https://user-images.githubusercontent.com/92082233/156843908-5d4ed4ee-5839-491d-a26d-73510b16cc5a.png)
 
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+![image](https://user-images.githubusercontent.com/92082233/156845131-2b02fbf7-b529-4737-b45f-929448a6cdbd.png)
+![image](https://user-images.githubusercontent.com/92082233/156845153-275bd9eb-d093-455f-a2a8-1c59132d5595.png)
+![image](https://user-images.githubusercontent.com/92082233/156845662-a1fafa03-18bb-4510-bfb3-d9894623147c.png)
 
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+![image](https://user-images.githubusercontent.com/92082233/156846193-9073ba59-6f4c-4cdd-8c7e-2d6238a8722a.png)
 
 
 ---
