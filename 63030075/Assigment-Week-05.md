@@ -138,7 +138,6 @@ Person <|.. Somsak
 
 ### 2.1 สไลด์หมายเลข 44 ###
 
-``` puml
 @startuml 
 class classroom{}
 class Whiteboard{}
@@ -146,15 +145,18 @@ class Table{}
 class Chair{}
 class Student{}
 class Teacher{}
-' Todo: ทำให้สมบูรณ์
 
-
+classroom o-- Whiteboard
+classroom o-- Table
+classroom o-- Chair
+classroom o-- Student
+classroom o-- Teacher
 @enduml 
-```
+```![image](https://user-images.githubusercontent.com/92082233/156838379-88374b33-6c1c-4299-8350-2bb85e60b788.png)
+
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
-``` puml
 @startuml 
 class MotorBoat{}
 class Car{}
@@ -163,27 +165,33 @@ class Engine{}
 class Door{}
 class Wheel{}
 class SteeringWheel{}
-' Todo: ทำให้สมบูรณ์
 
+MotorBoat o-- Helm
+MotorBoat o-- Engine
+
+Car o-- Engine
+Car o-- Door
+Car o-- Wheel
+Car o-- SteeringWheel
 @enduml 
-```
+```![image](https://user-images.githubusercontent.com/92082233/156838494-8e2fac32-f065-40db-9b4d-a9855aa4d12f.png)
+
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
-``` puml
 @startuml 
-
 class Car{}
 class Engine{}
 class Wheel{}
 class AirConditionner{}
 
-Car <|-- "1..1" Engine
-Car <|-- "2..4" Door
-' Todo: ทำให้สมบูรณ์
+Car o-- "1..1" Engine
+Car o-- "2..4" Door
+Car o-- "4..4" Wheel
+Car o-- "0..1" AirConditionner
+@enduml  
+```![image](https://user-images.githubusercontent.com/92082233/156838696-7588a229-b116-4fd8-90be-6174acd352a6.png)
 
-@enduml 
-```
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
@@ -202,33 +210,85 @@ Car <|-- "2..4" Door
 
 ### 2.4 Aggregation ของคลาส หนังสือ  (สไลด์หมายเลข 54) ###
 
-``` puml
 @startuml 
-
 class Book{}
 class Cover{}
-Book <|-- "2..2" Cover
-' Todo: ทำให้สมบูรณ์
+class Introduction{}
+class Index{}
+class Content{}
+class Bibliography{}
 
+Book o-- "2..2" Cover
+Book o-- "1..1" Introduction
+Book o-- "1..1" Index
+Book o-- "1..N" Content
+Book o-- "1..1" Bibliography
 @enduml 
-```
+```![image](https://user-images.githubusercontent.com/92082233/156838877-e08c9eb6-8c3c-42e5-9b7d-81050b4941e3.png)
+
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
-
-``` puml
 @startuml 
-
 class Book{
     - ISBN 
     - Name
     + Read()
     + Print()
 }
- 
-' Todo: ทำให้สมบูรณ์
 
-@enduml 
-```
+class Cover{
+    + CoverType
+    + Flip()
+}
+
+class Introduction{
+    - TextMessage
+    - AuthorName
+    + Read()
+}
+
+class Index{
+    - TextMessage
+    + Read()
+}
+
+class Chapter{
+    - ContentofChapter
+    + Read()
+}
+
+class Bibliography{
+    - TextMessage
+    + Read()
+}
+
+class Page{
+    - ContentofPage
+    + Flip()
+    + Read()
+}
+
+class Picture{
+    - Image
+    + See()
+}
+
+class Font{
+    - Character
+    + Spell()
+}
+
+Book o-- Cover
+Book o-- Introduction
+Book o-- Index
+Book o-- Chapter
+Book o-- Bibliography
+Chapter o-- Page
+Page o-- Picture
+Page o-- Font
+@enduml  
+```![image](https://user-images.githubusercontent.com/92082233/156839012-df4a42a0-db72-475b-aff5-2cb255c933c2.png)
+
 
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
