@@ -33,9 +33,11 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/Slide19.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+
+![image](https://user-images.githubusercontent.com/92081930/159155758-d07acfa0-7820-4ada-9306-f2a5cbe763f2.png)
+
 
 ### 1.2 Code ของตัวอย่าง ปรับปรุงการทำ Classification ของหมาและแมว (สไลด์ที่ 20) ###
 
@@ -53,9 +55,11 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
+
+![image](https://user-images.githubusercontent.com/92081930/159155779-058b4071-8fba-4187-a683-ad13620323d6.png)
+
 
 
 #### หมายเหตุ การใช้ลูกศรสามเหลี่ยมที่มีหัวโปร่งใสคือการทำ Inheritance ####
@@ -66,7 +70,7 @@ Dog <|.. blackDog
 @enduml 
 ```
 
-![Inheritance](./puml-codes/Inheritance-example.png)
+![image](https://user-images.githubusercontent.com/92081930/159155920-9c1fa1ba-7d2d-4836-bc52-b8b5407bbbdf.png)
 
 ### 1.3 Classification ของ class คน (สไลด์ที่ 21) ###
 
@@ -98,7 +102,7 @@ Person <|.. Somsak
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
 
-![Slide21](./puml-codes/Slide21.png)
+![image](https://user-images.githubusercontent.com/92081930/159155935-1d79b8f0-26d0-4ee2-8f2f-5c4b427afbac.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -110,7 +114,7 @@ Person <|.. Somsak
 "Base class" <|.. "Derived class"
 @enduml 
 ```
-![Instantiation](./puml-codes/Instantiation-example.png)
+![image](https://user-images.githubusercontent.com/92081930/159155956-16056ba3-515d-423c-a3e7-d90314a15c5f.png)
 
 
 ### 1.4 การสร้างวัตถุจาก Class คน  (สไลด์ที่ 22) ###
@@ -132,7 +136,7 @@ Person <|.. Somsak
 ```
 #### ตัวอย่างผลที่ได้จากการ render สไลด์ 22 ####
 
-![Slide22](./puml-codes/Slide22.png)
+![image](https://user-images.githubusercontent.com/92081930/159155993-0315f0f2-c006-47d6-bc9d-c13ca82f1fd6.png)
 
 --- 
 ## 2. ให้แก้ไข code ไฟล์ puml เพื่อให้ได้ภาพตามสไลด์ต่อไปนี้  ##
@@ -152,6 +156,8 @@ class Teacher{}
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081930/159156129-75623581-7e27-450a-9a18-f07adc9be99e.png)
+
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
@@ -168,6 +174,8 @@ class SteeringWheel{}
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081930/159156166-d6b3d8b5-fb56-4308-9296-7c6c31a4c1e1.png)
+
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
@@ -185,6 +193,8 @@ Car <|-- "2..4" Door
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081930/159156186-7e13ced5-b970-4a29-846d-7c9180697701.png)
+
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
@@ -213,6 +223,8 @@ Book <|-- "2..2" Cover
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081930/159156244-87e293d1-cd26-48fa-8b5c-30cd0a5f3bfd.png)
+
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
@@ -230,17 +242,30 @@ class Book{
 
 @enduml 
 ```
+![image](https://user-images.githubusercontent.com/92081930/159156268-02ecf5bb-bca7-4fa2-a316-7597e410881a.png)
 
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
 
+![image](https://user-images.githubusercontent.com/92081930/159156685-3b754580-4c5b-4a95-baef-8905b388553c.png)
+
+
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
 
+![image](https://user-images.githubusercontent.com/92081930/159156939-d3116033-205e-43e3-871d-4b104b319d5a.png)
+
+
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+
+![image](https://user-images.githubusercontent.com/92081930/159156825-3ceea23d-3e74-4f96-846f-f1b9d3c8da4a.png)
+
 
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+
+![image](https://user-images.githubusercontent.com/92081930/159156787-77a75ec2-3148-4a89-9e46-f712be5ce9f1.png)
+
 
 
 ---
