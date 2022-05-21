@@ -33,7 +33,8 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 19 ####
 
-![Slide19](./puml-codes/Slide19.png)
+![image](https://user-images.githubusercontent.com/92078775/156566207-54c11503-252b-4fd8-9ccc-de4deca098d2.png)
+
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -53,7 +54,7 @@ Dog <|.. blackDog
 
 #### ผลที่ได้จากการ render สไลด์ 20 ####
 
-![Slide20](./puml-codes/Slide20.png)
+![Assigment_Slide20](https://user-images.githubusercontent.com/92078775/156566620-a4f2cfcd-e5c3-4c55-a709-e5eeabbc919b.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -98,7 +99,7 @@ Person <|.. Somsak
 #### ผลที่ได้จากการ render สไลด์ 21 ####
 
 
-![Slide21](./puml-codes/Slide21.png)
+![Assigment_Slide21](https://user-images.githubusercontent.com/92078775/156566847-5351a3a7-a729-45f5-a220-bf055b0dc703.png)
 
 ^^^ บันทึกผลของนักศึกษาลงไปแทนภาพนี้
 
@@ -147,15 +148,19 @@ class Table{}
 class Chair{}
 class Student{}
 class Teacher{}
-' Todo: ทำให้สมบูรณ์
-
-
+classroom o-- Whiteboard
+classroom o-- Table
+classroom o-- Chair
+classroom o-- Student
+classroom o-- Teacher
 @enduml 
 ```
+![Assigment_Slide44](https://user-images.githubusercontent.com/92078775/156566947-aa127aa0-b2a5-432a-9c8c-d0260bc8aac9.png)
 
 ### 2.2 สไลด์หมายเลข 45 ###
 
 ``` puml
+@startuml 
 @startuml 
 class MotorBoat{}
 class Car{}
@@ -164,10 +169,16 @@ class Engine{}
 class Door{}
 class Wheel{}
 class SteeringWheel{}
-' Todo: ทำให้สมบูรณ์
-
+MotorBoat o-- Helm
+MotorBoat o-- Engine
+Car o-- Engine
+Car o-- Door
+Car o-- Wheel
+Car o-- SteeringWheel
 @enduml 
 ```
+![Assigment_Slide45](https://user-images.githubusercontent.com/92078775/156567321-511a7dee-9c3a-4489-9f85-84deb643983e.png)
+
 
 ### 2.3 สไลด์หมายเลข 51 ###
 
@@ -179,12 +190,15 @@ class Engine{}
 class Wheel{}
 class AirConditionner{}
 
-Car <|-- "1..1" Engine
-Car <|-- "2..4" Door
-' Todo: ทำให้สมบูรณ์
+Car o-- "1..1" Engine
+Car o-- "2..4" Door
+Car o-- "4..4" Wheel
+Car o-- "0..1" AirConditionner
 
 @enduml 
 ```
+![Assigment_Slide51](https://user-images.githubusercontent.com/92078775/156567430-459f4d23-f9c1-45e6-a131-379f560b5bfe.png)
+
 
 #### หมายเหตุ การเขียน cardinality ทำได้โดยใช้รูปแบบดังต่อไปนี้ ####
 
@@ -208,11 +222,21 @@ Car <|-- "2..4" Door
 
 class Book{}
 class Cover{}
-Book <|-- "2..2" Cover
-' Todo: ทำให้สมบูรณ์
+class Introduction{}
+class List{}
+class Content{}
+class Bibliography{}
+
+Book o-- "2..2" Cover
+Book o-- "1..1" Introduction
+Book o-- "1..1" List
+Book o-- "1..N" Content
+Book o-- "1..1" Bibliography
 
 @enduml 
 ```
+![Assigment_Slide54](https://user-images.githubusercontent.com/92078775/156567705-c17f3d4b-0d2e-4ecf-ba69-5d12e92b9e0c.png)
+
 
 ### 2.5 เพิ่ม Attribute และ Method ให้กับ Class หนังสือ   (สไลด์หมายเลข 56) ###
 
@@ -225,22 +249,70 @@ class Book{
     + Read()
     + Print()
 }
- 
-' Todo: ทำให้สมบูรณ์
-
+class Cover{
+    + Typecover
+    + Open()
+}
+class Introduction{
+    - Textmessage
+    - Authorname
+    + Read()
+}
+class List{
+    - Textmessage
+    + Read()
+}
+class Content{
+    - Chapter
+    + Read()
+}
+class Bibliography{
+    - Textmessage
+    + Read()
+}
+class Paper{
+    - ContentofPaper
+    + Open()
+    + Read()
+}
+class Picture{
+    - Image
+    + See()
+}
+class Font{
+    - Character
+    + Spell()
+}
+Book o-- Cover
+Book o-- Introduction
+Book o-- List
+Book o-- Content
+Book o-- Bibliography
+Content o-- Paper
+Paper o-- Picture
+Paper o-- Font
 @enduml 
 ```
 
+![Assigment_Slide56](https://user-images.githubusercontent.com/92078775/156567816-ef31d687-00b8-4400-9af2-d25f3fbe91d6.png)
 
 ### 2.6 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 71 ###
+
+![Assigment_Slide71](https://user-images.githubusercontent.com/92078775/156567839-09b87ac7-47eb-47b9-857d-46c493c3f930.png)
 
 
 ### 2.7 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 76 ###
 
+![Assigment_Slide76](https://user-images.githubusercontent.com/92078775/156567847-eecb73c7-7e50-459e-81bc-3f1ba7ec2ba8.png)
+
 ### 2.8 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 78 ###
+
+![Assigment_Slide78](https://user-images.githubusercontent.com/92078775/156567854-4d45e3d2-e529-4e2b-bde6-34ea7ebc42bb.png)
 
 
 ### 2.9 ใช้ plantUML วาดภาพตาม สไลด์หมายเลข 95 ###
+
+![Assigment_Slide95](https://user-images.githubusercontent.com/92078775/156567866-b5ed22ab-c981-461b-8a46-46255e67ecc0.png)
 
 
 ---
